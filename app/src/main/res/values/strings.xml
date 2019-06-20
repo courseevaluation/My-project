@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Course evaluation</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">Contacts</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+    //teacher dashboard
+    <string name="search_std_hint">Search for a student</string>
+    <string name="search_teacher_hint">Search for a Teacher</string>
+    <string name="create_course_txt">Create course</string>
+    <string name="show_courses_txt">Show courses</string>
+    <string name="manage_schedule_txt">manage schedule</string>
+    <string name="view_course_txt">view my courses</string>
+    <string name="logout_txt">logout</string>
+    <string name="course_name_txt">Course name</string>
+    <string name="course_code_txt">Course Code</string>
+    <string name="section_txt">Section</string>
+    <string name="semester_txt">semester</string>
+    <string name="year_txt">year</string>
+    <string name="select_language_txt">Select Language</string>
+    <string name="enable_dark_mode_txt">Enable Dark Mode</string>
+    <string name="ui_mode_txt">UI_MODE</string>
+    <string name="ui_mode_apply_txt">Setting will be applied next time app restarts</string>
+    <string name="batch_section_txt">Batch + section</string>
+    <string name="student_id_txt">Student ID</string>
+    <string name="new_password_txt">New password</string>
+    <string name="confirm_new_password_txt">Confirm new password</string>
+    <string name="register_txt">Register</string>
+    <string name="full_name_txt">Full Name</string>
+    <string name="email_txt">Email</string>
+    <string name="contact_no_txt">Contact no</string>
+    <string name="registration_caps_txt">REGISTRATION</string>
+    <string name="student_txt">Student</string>
+    <string name="teacher_txt">Teacher</string>
+    <string name="department_txt">Department</string>
+    <string name="designation_txt">Designation</string>
+    <string name="already_have_account_txt">Already Have Account?</string>
+    <string name="login_txt">Login</string>
+    <string name="profile_txt">profile</string>
+    <string name="name_txt">Name</string>
+    <string name="txt_remove">remove</string>
+    <string name="txt_accept">Accept</string>
+    <string name="schedule_txt">Schedule</string>
+    <string name="summy_course_code" translatable="false">CSE-3112</string>
+    <string name="dummy_semester_txt">Spring 2019</string>
+    <string name="dummy_section_txt">44  d section</string>
+    <string name="search_txt">search for faculty or student</string>
+    <string name="your_todays_schedule_txt">Your todays Schedule</string>
+    <string name="turn_of_this_schedule_txt">Turn off this Schedule</string>
+    <string name="turn_on_schedule_txt">Turn on this schedule</string>
+    <string name="request_access_warning">I know Requesting access will prompt relavent teacher for aproval of your request  so make sure you really attending this course</string>
+    <string name="dummy_date" translatable="false">12/05/2019</string>
+    <string name="request_access_txt">request access</string>
+    <string name="cancel_txt">cancel</string>
+    <string name="cancel_request_txt">cancel request</string>
+    //end
+</resources>

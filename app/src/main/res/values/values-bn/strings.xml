@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">কোর্স ইভোলুশন</string>
+
+
+
+    <string name="action_settings">্সেটিংস</string>
+    <string name="toolbar_title">্কন্টাক্টস</string>
+    <string name="action_search">সার্চ</string>
+    <string name="search_hint">নাম লিখুন.....</string>
+
+    //teacher dashboard
+    <string name="search_std_hint">ছাত্রের তথ্য খুজুন</string>
+    <string name="search_teacher_hint">শিক্ষকের তথ্য খুজুন </string>
+
+    //end
+
+
+</resources>

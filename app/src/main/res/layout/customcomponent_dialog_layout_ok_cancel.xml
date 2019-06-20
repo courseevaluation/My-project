@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:maxWidth="260dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="230dp">
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:singleLine="false"
+        android:layout_centerInParent="true"
+        android:text="Are you sure you \nwant to accept all request"
+        android:id="@+id/dialog_ok_cancel_textview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_below="@id/dialog_ok_cancel_textview"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/Red"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="cancel"
+            android:id="@+id/dialog_ok_cancel_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/Green"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/dialog_ok_cancel_ok_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ok" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/dialog_ok_cancel_progress"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/dialog_ok_cancel_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

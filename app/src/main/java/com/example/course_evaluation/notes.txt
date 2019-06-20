@@ -1,0 +1,38 @@
+
+UCrop.of(sourceUri, destinationUri)
+    .withAspectRatio(16, 9)
+    .withMaxResultSize(maxWidth, maxHeight)
+    .start(context);
+
+
+
+showing dialog fragment
+ new Create_course_fragment(Teacher_dashboard.this)
+                     .show(getSupportFragmentManager(),"createcoursefragment");
+
+                     //end
+
+
+
+                     //showing fragment witthout specifying in layout
+
+                      Create_course_fragment fragment=new Create_course_fragment(mcontsxt);
+                             AppCompatActivity activity=(AppCompatActivity) view.getContext();
+                             activity.getSupportFragmentManager().beginTransaction()
+                                     .setCustomAnimations(R.anim.zoom_in,R.anim.zoom_out)
+                                     .replace(android.R.id.content,fragment,"myfrag")
+                                     .addToBackStack(null)
+                                     .commit();
+
+                     //end
+
+                     //check permission storage
+
+                     if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                         Log.v(TAG,"Permission is granted");
+                         //File write logic here
+                         return true;
+                     }
+                     for grant new permission
+                     ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_CODE);
+                     //

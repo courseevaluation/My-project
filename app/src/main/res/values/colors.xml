@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorgreen">#21E43C</color>
+    <color name="green">#21E43C</color>
+    <color name="grey">#828080</color>
+    <color name="colorgray">#828080</color>
+    <color name="White">#FFFFFF</color>
+    <color name="teacher_dashboard_background">#B723A02B</color>
+    <color name="Black">#000000</color>
+    <color name="Red">#FF0000</color>
+    <color name="Green">#21E43C</color>
+    <color name="splash_background">#DB2158</color>
+    <color name="nav_menu_background">#8f26aa</color>
+    <color name="profile_timeline">#777473</color>
+    <color name="profile_DotGreen">#159100</color>
+    <color name="profile_DotYellow">#CDDC39</color>
+    <color name="tdb_grid_border_color">#000000</color>
+    <color name="blue">#0C34FC</color>
+    <color name="link_color">#202957</color>
+    <color name="orange">#E03E0B</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setting_txt_size">20</dimen>
+    <dimen name="large_title_txt_size">30</dimen>
+    <dimen name="tdb_border_width">3dp</dimen>
+    <dimen name="loading_dialog_msg_text_size">20dp</dimen>
+</resources>
